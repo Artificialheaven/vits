@@ -2,7 +2,9 @@
 
 本repo包含了我用于训练纳西妲VITS模型对源代码做出的修改，以及新的config文件。
 
-此外，也可以尝试使用公开的api：http://233366.proxy.nscc-gz.cn:8888/ 来进行尝试，请注意此模型禁止用于任何商业用途。请注意多次生成的效果不会一致，可以多次尝试来选择一次较好的效果。
+请注意此模型禁止用于任何商业用途。请注意多次生成的效果（大概）不会一致，可以多次尝试来选择一次较好的效果。
+
+启动后，访问 http://localhost:8000/docs 获取帮助，访问 http://localhost:8000/run 调用开放API
 
 Query String 参数：
 
@@ -13,10 +15,6 @@ Query String 参数：
 | noisew | 浮点数 |  生成时使用的 noise_factor_w，可用于控制音素发音长度变化程度。默认为0.8。 |
 | length | 浮点数 |  生成时使用的 length_factor，可用于控制整体语速。默认为1.2。 |
 | format | 字符串 |  生成语音的格式，必须为mp3或者wav。默认为mp3。 |
-
-示例：http://233366.proxy.nscc-gz.cn:8888/?text=你好&speaker=派蒙
-
-
 
 
 # VITS: Conditional Variational Autoencoder with Adversarial Learning for End-to-End Text-to-Speech
