@@ -4,7 +4,7 @@
 
 请注意此模型禁止用于任何商业用途。请注意多次生成的效果（大概）不会一致，可以多次尝试来选择一次较好的效果。
 
-启动后，访问 http://localhost:8000/docs 获取帮助，访问 http://localhost:8000/run 调用开放API
+启动main.py后，访问 http://localhost:8000/docs 获取帮助，访问 http://localhost:8000/run 调用开放API
 
 Query String 参数：
 
